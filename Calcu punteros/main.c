@@ -6,12 +6,29 @@ int main(void){
     float* p1;
     float* p2;
     float* r;
-
+    int vector[100];
+    int vecfinal[100];
+    int m,n;
     p1=&a;
     p2=&b;
     r=&c;
 
-    printf("Coloque el numero 1\n");
+    printf("Ingrese dimension del vector\n");
+    scanf("%d",&m);
+
+    for(int i=0;i<m;i++){
+        printf("Ingrese el numero de la posicion %d: ",i);
+        scanf("%d",&vector[i]);
+    }
+
+    printf("Ingrese el numero por el cual desee sumar su arreglo\n");
+    scanf("%d",&n);
+    sumaescalar(n, m, vector, vecfinal);
+    for(int i=0;i<m;i++){
+        printf("%d\n",vecfinal[i]);
+        
+    }
+    /*printf("Coloque el numero 1\n");
     scanf("%f",&a);
     printf("Coloque el numero 2\n");
     scanf("%f",&b);
@@ -26,7 +43,7 @@ int main(void){
     printf("Multi: %f\n",*r);
 
     div(p1,p2,r);
-    printf("Div: %f\n",*r);
+    printf("Div: %f\n",*r);*/
 
 
 }

@@ -20,3 +20,13 @@ void div(float* p1,float* p2,float* r){
     }
     
 }   
+
+void sumaescalar(int n, int m, int* matriz, int* mult){
+    
+    for(int i=0;i<m;i++){
+        *mult = n + *matriz;
+        matriz++;
+        mult++;
+    }
+}
+
