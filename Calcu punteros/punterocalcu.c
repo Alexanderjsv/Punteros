@@ -30,3 +30,21 @@ void sumaescalar(int n, int m, int* matriz, int* mult){
     }
 }
 
+void compararcad(char *cadena1,char *cadena2){
+    while (*cadena1!='\0' && *cadena2!='\0'){
+        if(*cadena1==*cadena2){
+            printf("no igual\n");
+            break;
+        }
+        *cadena1++;
+        *cadena2++;
+        
+        
+
+    }
+    if (*cadena1=='\0' && *cadena2=='\0')
+        {
+           printf(" igual\n");
+        }
+
+}
