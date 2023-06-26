@@ -14,17 +14,17 @@ int main(void){
     p2=&b;
     r=&c;
     //comparar
-    char cadena1[20],cadena2[20];
+    /*char cadena1[20],cadena2[20];
     printf("Ingrese la primera cadena\n");
     scanf("%s",&cadena1);
 
     printf("Ingrese la segunda cadena\n");
     scanf("%s",&cadena1);
     
-    compararcad(cadena1,cadena2);
+    compararcad(cadena1,cadena2);*/
     
     //suma vector
-    /*printf("Ingrese dimension del vector\n");
+    printf("Ingrese dimension del vector\n");
     scanf("%d",&m);
 
     for(int i=0;i<m;i++){
@@ -38,7 +38,7 @@ int main(void){
     for(int i=0;i<m;i++){
         printf("%d\n",vecfinal[i]);
         
-    }*/
+    }
    
    
     /*printf("Coloque el numero 1\n");
